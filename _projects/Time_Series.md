@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: Time Series
 description: with background image
 img: assets/img/Time_Series.png
 importance: 1
