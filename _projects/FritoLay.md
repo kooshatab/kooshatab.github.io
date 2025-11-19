@@ -7,14 +7,13 @@ importance: 1
 category: work
 related_publications: true
 ---
+
 <!DOCTYPE html>
 <!-- saved from url=(0092)file:///C:/Users/koosh/Documents/kooshatab.github.io/_projects/CaseStudy1_Koosha-Tabesh.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-
 <meta name="generator" content="pandoc">
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
-
 
 <meta name="author" content="Koosha">
 
@@ -62,9 +61,10 @@ if (!!window.navigator.userAgent.match("MSIE 8")) {
 
 // Only run this code in IE 8
 if (!!window.navigator.userAgent.match("MSIE 8")) {
-!function(a){"use strict";a.matchMedia=a.matchMedia||function(a){var b,c=a.documentElement,d=c.firstElementChild||c.firstChild,e=a.createElement("body"),f=a.createElement("div");return f.id="mq-test-1",f.style.cssText="position:absolute;top:-100em",e.style.background="none",e.appendChild(f),function(a){return f.innerHTML='&shy;<style media="'+a+'"> #mq-test-1 { width: 42px; }</style>',c.insertBefore(e,d),b=42===f.offsetWidth,c.removeChild(e),{matches:b,media:a}}}(a.document)}(this),function(a){"use strict";function b(){u(!0)}var c={};a.respond=c,c.update=function(){};var d=[],e=function(){var b=!1;try{b=new a.XMLHttpRequest}catch(c){b=new a.ActiveXObject("Microsoft.XMLHTTP")}return function(){return b}}(),f=function(a,b){var c=e();c&&(c.open("GET",a,!0),c.onreadystatechange=function(){4!==c.readyState||200!==c.status&&304!==c.status||b(c.responseText)},4!==c.readyState&&c.send(null))};if(c.ajax=f,c.queue=d,c.regex={media:/@media[^\{]+\{([^\{\}]*\{[^\}\{]*\})+/gi,keyframes:/@(?:\-(?:o|moz|webkit)\-)?keyframes[^\{]+\{(?:[^\{\}]*\{[^\}\{]*\})+[^\}]*\}/gi,urls:/(url\()['"]?([^\/\)'"][^:\)'"]+)['"]?(\))/g,findStyles:/@media *([^\{]+)\{([\S\s]+?)$/,only:/(only\s+)?([a-zA-Z]+)\s?/,minw:/\([\s]*min\-width\s*:[\s]*([\s]*[0-9\.]+)(px|em)[\s]*\)/,maxw:/\([\s]*max\-width\s*:[\s]*([\s]*[0-9\.]+)(px|em)[\s]*\)/},c.mediaQueriesSupported=a.matchMedia&&null!==a.matchMedia("only all")&&a.matchMedia("only all").matches,!c.mediaQueriesSupported){var g,h,i,j=a.document,k=j.documentElement,l=[],m=[],n=[],o={},p=30,q=j.getElementsByTagName("head")[0]||k,r=j.getElementsByTagName("base")[0],s=q.getElementsByTagName("link"),t=function(){var a,b=j.createElement("div"),c=j.body,d=k.style.fontSize,e=c&&c.style.fontSize,f=!1;return b.style.cssText="position:absolute;font-size:1em;width:1em",c||(c=f=j.createElement("body"),c.style.background="none"),k.style.fontSize="100%",c.style.fontSize="100%",c.appendChild(b),f&&k.insertBefore(c,k.firstChild),a=b.offsetWidth,f?k.removeChild(c):c.removeChild(b),k.style.fontSize=d,e&&(c.style.fontSize=e),a=i=parseFloat(a)},u=function(b){var c="clientWidth",d=k[c],e="CSS1Compat"===j.compatMode&&d||j.body[c]||d,f={},o=s[s.length-1],r=(new Date).getTime();if(b&&g&&p>r-g)return a.clearTimeout(h),h=a.setTimeout(u,p),void 0;g=r;for(var v in l)if(l.hasOwnProperty(v)){var w=l[v],x=w.minw,y=w.maxw,z=null===x,A=null===y,B="em";x&&(x=parseFloat(x)*(x.indexOf(B)>-1?i||t():1)),y&&(y=parseFloat(y)*(y.indexOf(B)>-1?i||t():1)),w.hasquery&&(z&&A||!(z||e>=x)||!(A||y>=e))||(f[w.media]||(f[w.media]=[]),f[w.media].push(m[w.rules]))}for(var C in n)n.hasOwnProperty(C)&&n[C]&&n[C].parentNode===q&&q.removeChild(n[C]);n.length=0;for(var D in f)if(f.hasOwnProperty(D)){var E=j.createElement("style"),F=f[D].join("\n");E.type="text/css",E.media=D,q.insertBefore(E,o.nextSibling),E.styleSheet?E.styleSheet.cssText=F:E.appendChild(j.createTextNode(F)),n.push(E)}},v=function(a,b,d){var e=a.replace(c.regex.keyframes,"").match(c.regex.media),f=e&&e.length||0;b=b.substring(0,b.lastIndexOf("/"));var g=function(a){return a.replace(c.regex.urls,"$1"+b+"$2$3")},h=!f&&d;b.length&&(b+="/"),h&&(f=1);for(var i=0;f>i;i++){var j,k,n,o;h?(j=d,m.push(g(a))):(j=e[i].match(c.regex.findStyles)&&RegExp.$1,m.push(RegExp.$2&&g(RegExp.$2))),n=j.split(","),o=n.length;for(var p=0;o>p;p++)k=n[p],l.push({media:k.split("(")[0].match(c.regex.only)&&RegExp.$2||"all",rules:m.length-1,hasquery:k.indexOf("(")>-1,minw:k.match(c.regex.minw)&&parseFloat(RegExp.$1)+(RegExp.$2||""),maxw:k.match(c.regex.maxw)&&parseFloat(RegExp.$1)+(RegExp.$2||"")})}u()},w=function(){if(d.length){var b=d.shift();f(b.href,function(c){v(c,b.href,b.media),o[b.href]=!0,a.setTimeout(function(){w()},0)})}},x=function(){for(var b=0;b<s.length;b++){var c=s[b],e=c.href,f=c.media,g=c.rel&&"stylesheet"===c.rel.toLowerCase();e&&g&&!o[e]&&(c.styleSheet&&c.styleSheet.rawCssText?(v(c.styleSheet.rawCssText,e,f),o[e]=!0):(!/^([a-zA-Z:]*\/\/)/.test(e)&&!r||e.replace(RegExp.$1,"").split("/")[0]===a.location.host)&&("//"===e.substring(0,2)&&(e=a.location.protocol+e),d.push({href:e,media:f})))}w()};x(),c.update=x,c.getEmValue=t,a.addEventListener?a.addEventListener("resize",b,!1):a.attachEvent&&a.attachEvent("onresize",b)}}(this);
+!function(a){"use strict";a.matchMedia=a.matchMedia||function(a){var b,c=a.documentElement,d=c.firstElementChild||c.firstChild,e=a.createElement("body"),f=a.createElement("div");return f.id="mq-test-1",f.style.cssText="position:absolute;top:-100em",e.style.background="none",e.appendChild(f),function(a){return f.innerHTML='&shy;<style media="'+a+'"> #mq-test-1 { width: 42px; }</style>',c.insertBefore(e,d),b=42===f.offsetWidth,c.removeChild(e),{matches:b,media:a}}}(a.document)}(this),function(a){"use strict";function b(){u(!0)}var c={};a.respond=c,c.update=function(){};var d=[],e=function(){var b=!1;try{b=new a.XMLHttpRequest}catch(c){b=new a.ActiveXObject("Microsoft.XMLHTTP")}return function(){return b}}(),f=function(a,b){var c=e();c&&(c.open("GET",a,!0),c.onreadystatechange=function(){4!==c.readyState||200!==c.status&&304!==c.status||b(c.responseText)},4!==c.readyState&&c.send(null))};if(c.ajax=f,c.queue=d,c.regex={media:/@media[^\{]+\{([^\{\}]_\{[^\}\{]_\})+/gi,keyframes:/@(?:\-(?:o|moz|webkit)\-)?keyframes[^\{]+\{(?:[^\{\}]_\{[^\}\{]_\})+[^\}]_\}/gi,urls:/(url\()['"]?([^\/\)'"][^:\)'"]+)['"]?(\))/g,findStyles:/@media _([^\{]+)\{([\S\s]+?)$/,only:/(only\s+)?([a-zA-Z]+)\s?/,minw:/\([\s]_min\-width\s_:[\s]_([\s]_[0-9\.]+)(px|em)[\s]*\)/,maxw:/\([\s]*max\-width\s*:[\s]*([\s]_[0-9\.]+)(px|em)[\s]_\)/},c.mediaQueriesSupported=a.matchMedia&&null!==a.matchMedia("only all")&&a.matchMedia("only all").matches,!c.mediaQueriesSupported){var g,h,i,j=a.document,k=j.documentElement,l=[],m=[],n=[],o={},p=30,q=j.getElementsByTagName("head")[0]||k,r=j.getElementsByTagName("base")[0],s=q.getElementsByTagName("link"),t=function(){var a,b=j.createElement("div"),c=j.body,d=k.style.fontSize,e=c&&c.style.fontSize,f=!1;return b.style.cssText="position:absolute;font-size:1em;width:1em",c||(c=f=j.createElement("body"),c.style.background="none"),k.style.fontSize="100%",c.style.fontSize="100%",c.appendChild(b),f&&k.insertBefore(c,k.firstChild),a=b.offsetWidth,f?k.removeChild(c):c.removeChild(b),k.style.fontSize=d,e&&(c.style.fontSize=e),a=i=parseFloat(a)},u=function(b){var c="clientWidth",d=k[c],e="CSS1Compat"===j.compatMode&&d||j.body[c]||d,f={},o=s[s.length-1],r=(new Date).getTime();if(b&&g&&p>r-g)return a.clearTimeout(h),h=a.setTimeout(u,p),void 0;g=r;for(var v in l)if(l.hasOwnProperty(v)){var w=l[v],x=w.minw,y=w.maxw,z=null===x,A=null===y,B="em";x&&(x=parseFloat(x)_(x.indexOf(B)>-1?i||t():1)),y&&(y=parseFloat(y)_(y.indexOf(B)>-1?i||t():1)),w.hasquery&&(z&&A||!(z||e>=x)||!(A||y>=e))||(f[w.media]||(f[w.media]=[]),f[w.media].push(m[w.rules]))}for(var C in n)n.hasOwnProperty(C)&&n[C]&&n[C].parentNode===q&&q.removeChild(n[C]);n.length=0;for(var D in f)if(f.hasOwnProperty(D)){var E=j.createElement("style"),F=f[D].join("\n");E.type="text/css",E.media=D,q.insertBefore(E,o.nextSibling),E.styleSheet?E.styleSheet.cssText=F:E.appendChild(j.createTextNode(F)),n.push(E)}},v=function(a,b,d){var e=a.replace(c.regex.keyframes,"").match(c.regex.media),f=e&&e.length||0;b=b.substring(0,b.lastIndexOf("/"));var g=function(a){return a.replace(c.regex.urls,"$1"+b+"$2$3")},h=!f&&d;b.length&&(b+="/"),h&&(f=1);for(var i=0;f>i;i++){var j,k,n,o;h?(j=d,m.push(g(a))):(j=e[i].match(c.regex.findStyles)&&RegExp.$1,m.push(RegExp.$2&&g(RegExp.$2))),n=j.split(","),o=n.length;for(var p=0;o>p;p++)k=n[p],l.push({media:k.split("(")[0].match(c.regex.only)&&RegExp.$2||"all",rules:m.length-1,hasquery:k.indexOf("(")>-1,minw:k.match(c.regex.minw)&&parseFloat(RegExp.$1)+(RegExp.$2||""),maxw:k.match(c.regex.maxw)&&parseFloat(RegExp.$1)+(RegExp.$2||"")})}u()},w=function(){if(d.length){var b=d.shift();f(b.href,function(c){v(c,b.href,b.media),o[b.href]=!0,a.setTimeout(function(){w()},0)})}},x=function(){for(var b=0;b<s.length;b++){var c=s[b],e=c.href,f=c.media,g=c.rel&&"stylesheet"===c.rel.toLowerCase();e&&g&&!o[e]&&(c.styleSheet&&c.styleSheet.rawCssText?(v(c.styleSheet.rawCssText,e,f),o[e]=!0):(!/^([a-zA-Z:]\*\/\/)/.test(e)&&!r||e.replace(RegExp.$1,"").split("/")[0]===a.location.host)&&("//"===e.substring(0,2)&&(e=a.location.protocol+e),d.push({href:e,media:f})))}w()};x(),c.update=x,c.getEmValue=t,a.addEventListener?a.addEventListener("resize",b,!1):a.attachEvent&&a.attachEvent("onresize",b)}}(this);
 };
 </script>
+
 <style>h1 {font-size: 34px;}
 h1.title {font-size: 38px;}
 h2 {font-size: 30px;}
@@ -256,14 +256,6 @@ if (window.hljs) {
 }
 </script>
 
-
-
-
-
-
-
-
-
 <style type="text/css">
 .main-container {
 max-width: 940px;
@@ -292,8 +284,6 @@ pre code {
 padding: 0;
 }
 </style>
-
-
 
 <!-- tabsets -->
 
@@ -340,11 +330,9 @@ display: none;
 
 <!-- code folding -->
 
-
-
-
 <script type="text/javascript" src="./FritoLay_files/MathJax.js.download"></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
-.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+
+.MathJax*Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
 .MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
 .MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
 .MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
@@ -407,18 +395,18 @@ display: none;
 .MJXp-denom {display: inline-table!important; width: 100%}
 .MJXp-denom > * {display: table-row!important}
 .MJXp-surd {vertical-align: top}
-.MJXp-surd > * {display: block!important}
-.MJXp-script-box > *  {display: table!important; height: 50%}
-.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
-.MJXp-script-box > *:last-child > * {vertical-align: bottom}
-.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-surd > _ {display: block!important}
+.MJXp-script-box > _ {display: table!important; height: 50%}
+.MJXp-script-box > _ > _ {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > _:last-child > _ {vertical-align: bottom}
+.MJXp-script-box > _ > _ > _ {display: block!important}
 .MJXp-mphantom {visibility: hidden}
 .MJXp-munderover, .MJXp-munder {display: inline-table!important}
 .MJXp-over {display: inline-block!important; text-align: center}
-.MJXp-over > * {display: block!important}
-.MJXp-munderover > *, .MJXp-munder > * {display: table-row!important}
+.MJXp-over > _ {display: block!important}
+.MJXp-munderover > _, .MJXp-munder > _ {display: table-row!important}
 .MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
-.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtable > \_ {display: inline-table!important; vertical-align: middle}
 .MJXp-mtr {display: table-row!important}
 .MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
 .MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
@@ -442,22 +430,15 @@ display: none;
 
 <body><div id="MathJax_Message" style="display: none;"></div>
 
-
 <div class="container-fluid main-container">
 
-
-
-
 <div id="header">
-
-
 
 <h1 class="title toc-ignore">Project1_FinalDraft</h1>
 <h4 class="author">Koosha</h4>
 <h4 class="date">2025-10-26</h4>
 
 </div>
-
 
 <p>#Link to Youtube Video #<a href="https://www.youtube.com/watch?v=fSLM-jSjJrs" class="uri">https://www.youtube.com/watch?v=fSLM-jSjJrs</a></p>
 <pre class="r"><code class="hljs"><span class="hljs-comment">#Load necessary library</span>
@@ -468,6 +449,7 @@ url &lt;- <span class="hljs-string">"https://raw.githubusercontent.com/BivinSadl
 
 <span class="hljs-comment"># Read the CSV file</span>
 data &lt;- read_csv(url)</code></pre>
+
 <pre><code class="hljs">## Rows: 870 Columns: 36
 ## ── Column specification ────────────────────────────────────────────────────────
 ## Delimiter: ","
@@ -734,20 +716,21 @@ ggplot(data, aes(x = BusinessTravel, fill = Attrition)) +
 
 <span class="hljs-comment"># Create bins (low/high) for Age and YearsWithCompany based on median</span>
 data &lt;- data %&gt;%
-  mutate(
-    AgeGroup = ifelse(Age &lt;= median(Age, na.rm = <span class="hljs-literal">TRUE</span>), <span class="hljs-string">"Low Age"</span>, <span class="hljs-string">"High Age"</span>),
-    TenureGroup = ifelse(YearsAtCompany &lt;= median(YearsAtCompany, na.rm = <span class="hljs-literal">TRUE</span>), 
-                         <span class="hljs-string">"Low Tenure"</span>, <span class="hljs-string">"High Tenure"</span>)
-  )
+mutate(
+AgeGroup = ifelse(Age &lt;= median(Age, na.rm = <span class="hljs-literal">TRUE</span>), <span class="hljs-string">"Low Age"</span>, <span class="hljs-string">"High Age"</span>),
+TenureGroup = ifelse(YearsAtCompany &lt;= median(YearsAtCompany, na.rm = <span class="hljs-literal">TRUE</span>),
+<span class="hljs-string">"Low Tenure"</span>, <span class="hljs-string">"High Tenure"</span>)
+)
 
 <span class="hljs-comment"># Calculate attrition proportion for each group combination</span>
 attrition_summary &lt;- data %&gt;%
-  group_by(AgeGroup, TenureGroup) %&gt;%
-  summarise(
-    Total = n(),
-    AttritionYes = sum(Attrition == <span class="hljs-string">"Yes"</span>),
-    AttritionRate = round(<span class="hljs-number">100</span> * AttritionYes / Total, <span class="hljs-number">1</span>)
-  )</code></pre>
+group_by(AgeGroup, TenureGroup) %&gt;%
+summarise(
+Total = n(),
+AttritionYes = sum(Attrition == <span class="hljs-string">"Yes"</span>),
+AttritionRate = round(<span class="hljs-number">100</span> \* AttritionYes / Total, <span class="hljs-number">1</span>)
+)</code></pre>
+
 <pre><code class="hljs">## `summarise()` has grouped output by 'AgeGroup'. You can override using the
 ## `.groups` argument.</code></pre>
 <pre class="r"><code class="hljs">print(attrition_summary)</code></pre>
@@ -777,20 +760,21 @@ ggplot(attrition_summary, aes(x = AgeGroup, y = AttritionRate, fill = TenureGrou
 
 <span class="hljs-comment"># Create bins (Low / High) for Age and MonthlyIncome using median split</span>
 data &lt;- data %&gt;%
-  mutate(
-    AgeGroup = ifelse(Age &lt;= median(Age, na.rm = <span class="hljs-literal">TRUE</span>), <span class="hljs-string">"Low Age"</span>, <span class="hljs-string">"High Age"</span>),
-    IncomeGroup = ifelse(MonthlyIncome &lt;= median(MonthlyIncome, na.rm = <span class="hljs-literal">TRUE</span>), 
-                         <span class="hljs-string">"Low Income"</span>, <span class="hljs-string">"High Income"</span>)
-  )
+mutate(
+AgeGroup = ifelse(Age &lt;= median(Age, na.rm = <span class="hljs-literal">TRUE</span>), <span class="hljs-string">"Low Age"</span>, <span class="hljs-string">"High Age"</span>),
+IncomeGroup = ifelse(MonthlyIncome &lt;= median(MonthlyIncome, na.rm = <span class="hljs-literal">TRUE</span>),
+<span class="hljs-string">"Low Income"</span>, <span class="hljs-string">"High Income"</span>)
+)
 
 <span class="hljs-comment"># Calculate attrition proportion for each Age–Income combination</span>
 attrition_summary_income &lt;- data %&gt;%
-  group_by(AgeGroup, IncomeGroup) %&gt;%
-  summarise(
-    Total = n(),
-    AttritionYes = sum(Attrition == <span class="hljs-string">"Yes"</span>),
-    AttritionRate = round(<span class="hljs-number">100</span> * AttritionYes / Total, <span class="hljs-number">1</span>)
-  )</code></pre>
+group_by(AgeGroup, IncomeGroup) %&gt;%
+summarise(
+Total = n(),
+AttritionYes = sum(Attrition == <span class="hljs-string">"Yes"</span>),
+AttritionRate = round(<span class="hljs-number">100</span> \* AttritionYes / Total, <span class="hljs-number">1</span>)
+)</code></pre>
+
 <pre><code class="hljs">## `summarise()` has grouped output by 'AgeGroup'. You can override using the
 ## `.groups` argument.</code></pre>
 <pre class="r"><code class="hljs">print(attrition_summary_income)</code></pre>
@@ -820,14 +804,15 @@ ggplot(attrition_summary_income, aes(x = AgeGroup, y = AttritionRate, fill = Inc
 
 <span class="hljs-comment"># Calculate attrition rate by JobInvolvement level</span>
 attrition_jobinv &lt;- data %&gt;%
-  group_by(JobInvolvement) %&gt;%
-  summarise(
-    Total = n(),
-    AttritionYes = sum(Attrition == <span class="hljs-string">"Yes"</span>),
-    AttritionRate = round(<span class="hljs-number">100</span> * AttritionYes / Total, <span class="hljs-number">1</span>)
-  )
+group_by(JobInvolvement) %&gt;%
+summarise(
+Total = n(),
+AttritionYes = sum(Attrition == <span class="hljs-string">"Yes"</span>),
+AttritionRate = round(<span class="hljs-number">100</span> \* AttritionYes / Total, <span class="hljs-number">1</span>)
+)
 
 print(attrition_jobinv)</code></pre>
+
 <pre><code class="hljs">## # A tibble: 4 × 4
 ##   JobInvolvement Total AttritionYes AttritionRate
 ##            &lt;dbl&gt; &lt;int&gt;        &lt;int&gt;         &lt;dbl&gt;
@@ -856,14 +841,15 @@ ggplot(attrition_jobinv, aes(x = factor(JobInvolvement), y = AttritionRate, fill
 
 <span class="hljs-comment"># Calculate attrition rate by JobLevel</span>
 attrition_joblevel &lt;- data %&gt;%
-  group_by(JobLevel) %&gt;%
-  summarise(
-    Total = n(),
-    AttritionYes = sum(Attrition == <span class="hljs-string">"Yes"</span>),
-    AttritionRate = round(<span class="hljs-number">100</span> * AttritionYes / Total, <span class="hljs-number">1</span>)
-  )
+group_by(JobLevel) %&gt;%
+summarise(
+Total = n(),
+AttritionYes = sum(Attrition == <span class="hljs-string">"Yes"</span>),
+AttritionRate = round(<span class="hljs-number">100</span> \* AttritionYes / Total, <span class="hljs-number">1</span>)
+)
 
 print(attrition_joblevel)</code></pre>
+
 <pre><code class="hljs">## # A tibble: 5 × 4
 ##   JobLevel Total AttritionYes AttritionRate
 ##      &lt;dbl&gt; &lt;int&gt;        &lt;int&gt;         &lt;dbl&gt;
@@ -893,22 +879,23 @@ ggplot(attrition_joblevel, aes(x = factor(JobLevel), y = AttritionRate, fill = f
 
 <span class="hljs-comment"># Create distance bins (using quantiles or custom cut points)</span>
 data &lt;- data %&gt;%
-  mutate(DistanceGroup = case_when(
-    DistanceFromHome &lt;= <span class="hljs-number">5</span>  ~ <span class="hljs-string">"Short (≤5 km)"</span>,
-    DistanceFromHome &lt;= <span class="hljs-number">10</span> ~ <span class="hljs-string">"Medium (6–10 km)"</span>,
-    <span class="hljs-literal">TRUE</span>                   ~ <span class="hljs-string">"Long (&gt;10 km)"</span>
-  ))
+mutate(DistanceGroup = case_when(
+DistanceFromHome &lt;= <span class="hljs-number">5</span> ~ <span class="hljs-string">"Short (≤5 km)"</span>,
+DistanceFromHome &lt;= <span class="hljs-number">10</span> ~ <span class="hljs-string">"Medium (6–10 km)"</span>,
+<span class="hljs-literal">TRUE</span> ~ <span class="hljs-string">"Long (&gt;10 km)"</span>
+))
 
 <span class="hljs-comment"># Calculate attrition rate by distance group</span>
 attrition_distance &lt;- data %&gt;%
-  group_by(DistanceGroup) %&gt;%
-  summarise(
-    Total = n(),
-    AttritionYes = sum(Attrition == <span class="hljs-string">"Yes"</span>),
-    AttritionRate = round(<span class="hljs-number">100</span> * AttritionYes / Total, <span class="hljs-number">1</span>)
-  )
+group_by(DistanceGroup) %&gt;%
+summarise(
+Total = n(),
+AttritionYes = sum(Attrition == <span class="hljs-string">"Yes"</span>),
+AttritionRate = round(<span class="hljs-number">100</span> \* AttritionYes / Total, <span class="hljs-number">1</span>)
+)
 
 print(attrition_distance)</code></pre>
+
 <pre><code class="hljs">## # A tibble: 3 × 4
 ##   DistanceGroup    Total AttritionYes AttritionRate
 ##   &lt;chr&gt;            &lt;int&gt;        &lt;int&gt;         &lt;dbl&gt;
@@ -936,18 +923,19 @@ ggplot(attrition_distance, aes(x = DistanceGroup, y = AttritionRate, fill = Dist
 
 <span class="hljs-comment"># Create two groups based on number of companies worked</span>
 data &lt;- data %&gt;%
-  mutate(CompanyGroup = ifelse(NumCompaniesWorked &lt; <span class="hljs-number">5</span>, <span class="hljs-string">"&lt; 5 Companies"</span>, <span class="hljs-string">"≥ 5 Companies"</span>))
+mutate(CompanyGroup = ifelse(NumCompaniesWorked &lt; <span class="hljs-number">5</span>, <span class="hljs-string">"&lt; 5 Companies"</span>, <span class="hljs-string">"≥ 5 Companies"</span>))
 
 <span class="hljs-comment"># Calculate attrition rate for each group</span>
 attrition_company_group &lt;- data %&gt;%
-  group_by(CompanyGroup) %&gt;%
-  summarise(
-    Total = n(),
-    AttritionYes = sum(Attrition == <span class="hljs-string">"Yes"</span>),
-    AttritionRate = round(<span class="hljs-number">100</span> * AttritionYes / Total, <span class="hljs-number">1</span>)
-  )
+group_by(CompanyGroup) %&gt;%
+summarise(
+Total = n(),
+AttritionYes = sum(Attrition == <span class="hljs-string">"Yes"</span>),
+AttritionRate = round(<span class="hljs-number">100</span> \* AttritionYes / Total, <span class="hljs-number">1</span>)
+)
 
 print(attrition_company_group)</code></pre>
+
 <pre><code class="hljs">## # A tibble: 2 × 4
 ##   CompanyGroup  Total AttritionYes AttritionRate
 ##   &lt;chr&gt;         &lt;int&gt;        &lt;int&gt;         &lt;dbl&gt;
@@ -974,14 +962,15 @@ ggplot(attrition_company_group, aes(x = CompanyGroup, y = AttritionRate, fill = 
 
 <span class="hljs-comment"># Calculate attrition rate by WorkLifeBalance</span>
 attrition_wlb &lt;- data %&gt;%
-  group_by(WorkLifeBalance) %&gt;%
-  summarise(
-    Total = n(),
-    AttritionYes = sum(Attrition == <span class="hljs-string">"Yes"</span>),
-    AttritionRate = round(<span class="hljs-number">100</span> * AttritionYes / Total, <span class="hljs-number">1</span>)
-  )
+group_by(WorkLifeBalance) %&gt;%
+summarise(
+Total = n(),
+AttritionYes = sum(Attrition == <span class="hljs-string">"Yes"</span>),
+AttritionRate = round(<span class="hljs-number">100</span> \* AttritionYes / Total, <span class="hljs-number">1</span>)
+)
 
 print(attrition_wlb)</code></pre>
+
 <pre><code class="hljs">## # A tibble: 4 × 4
 ##   WorkLifeBalance Total AttritionYes AttritionRate
 ##             &lt;dbl&gt; &lt;int&gt;        &lt;int&gt;         &lt;dbl&gt;
@@ -1010,14 +999,15 @@ ggplot(attrition_wlb, aes(x = factor(WorkLifeBalance), y = AttritionRate, fill =
 
 <span class="hljs-comment"># Calculate attrition rate by StockOptionLevel</span>
 attrition_stock &lt;- data %&gt;%
-  group_by(StockOptionLevel) %&gt;%
-  summarise(
-    Total = n(),
-    AttritionYes = sum(Attrition == <span class="hljs-string">"Yes"</span>),
-    AttritionRate = round(<span class="hljs-number">100</span> * AttritionYes / Total, <span class="hljs-number">1</span>)
-  )
+group_by(StockOptionLevel) %&gt;%
+summarise(
+Total = n(),
+AttritionYes = sum(Attrition == <span class="hljs-string">"Yes"</span>),
+AttritionRate = round(<span class="hljs-number">100</span> \* AttritionYes / Total, <span class="hljs-number">1</span>)
+)
 
 print(attrition_stock)</code></pre>
+
 <pre><code class="hljs">## # A tibble: 4 × 4
 ##   StockOptionLevel Total AttritionYes AttritionRate
 ##              &lt;dbl&gt; &lt;int&gt;        &lt;int&gt;         &lt;dbl&gt;
@@ -1070,10 +1060,10 @@ data$AttritionFlag &lt;- factor(ifelse(data$Attrition == <span class="hljs-strin
                              levels = c(<span class="hljs-string">"No"</span>, <span class="hljs-string">"Yes"</span>))  <span class="hljs-comment"># "No" = stayed (positive)</span>
 
 selected_features &lt;- c(
-  <span class="hljs-string">"JobInvolvement"</span>, <span class="hljs-string">"TotalWorkingYears"</span>, <span class="hljs-string">"JobLevel"</span>,
-  <span class="hljs-string">"YearsInCurrentRole"</span>, <span class="hljs-string">"MonthlyIncome"</span>, <span class="hljs-string">"Age"</span>,
-  <span class="hljs-string">"StockOptionLevel"</span>, <span class="hljs-string">"YearsWithCurrManager"</span>,
-  <span class="hljs-string">"YearsAtCompany"</span>, <span class="hljs-string">"JobSatisfaction"</span>
+<span class="hljs-string">"JobInvolvement"</span>, <span class="hljs-string">"TotalWorkingYears"</span>, <span class="hljs-string">"JobLevel"</span>,
+<span class="hljs-string">"YearsInCurrentRole"</span>, <span class="hljs-string">"MonthlyIncome"</span>, <span class="hljs-string">"Age"</span>,
+<span class="hljs-string">"StockOptionLevel"</span>, <span class="hljs-string">"YearsWithCurrManager"</span>,
+<span class="hljs-string">"YearsAtCompany"</span>, <span class="hljs-string">"JobSatisfaction"</span>
 )
 
 model_data &lt;- data %&gt;% select(all_of(selected_features), AttritionFlag)
@@ -1084,9 +1074,10 @@ model_data &lt;- data %&gt;% select(all_of(selected_features), AttritionFlag)
 set.seed(<span class="hljs-number">70</span>)
 train_index &lt;- createDataPartition(model_data$AttritionFlag, p = <span class="hljs-number">0.7</span>, list = <span class="hljs-literal">FALSE</span>)
 train_data &lt;- model_data[train_index, ]
-test_data  &lt;- model_data[-train_index, ]
+test_data &lt;- model_data[-train_index, ]
 
 cat(<span class="hljs-string">"\nClass distribution in Training Set:\n"</span>)</code></pre>
+
 <pre><code class="hljs">## 
 ## Class distribution in Training Set:</code></pre>
 <pre class="r"><code class="hljs">print(table(train_data$AttritionFlag))</code></pre>
@@ -1760,9 +1751,6 @@ setwd(<span class="hljs-string">"C:\\Users\\koosh\\Desktop\\MSDS_6306_Doing-Data
 <span class="hljs-comment"># Save to CSV</span>
 write.csv(final_predictions, <span class="hljs-string">"Case1PredictionsTABESH Attrition.csv"</span>, row.names = <span class="hljs-literal">FALSE</span>)</code></pre>
 
-
-
-
 </div>
 
 <script>
@@ -1794,7 +1782,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
   (function () {
@@ -1804,7 +1791,5 @@ $(document).ready(function () {
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
-
-
 
 </body></html>
