@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: Attrition Data Analysis & Modeling
 description: Frito Lay Attrition Data Analysis
 img: assets/img/project1.png
 importance: 1
