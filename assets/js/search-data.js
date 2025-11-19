@@ -451,8 +451,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
+          section: "News",},{id: "projects-attrition-data-analysis-amp-modeling",
+          title: 'Attrition Data Analysis &amp;amp; Modeling',
           description: "Frito Lay Attrition Data Analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/FritoLay/";
