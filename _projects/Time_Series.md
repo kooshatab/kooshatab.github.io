@@ -2,7 +2,7 @@
 layout: page 
 title: Time Series 
 description: Demonstration of the Time Series 
-img: assets/img/12.jpg 
+img: assets/img/Time_Series.png 
 importance: 1 
 category: work
 related_publications: true 
