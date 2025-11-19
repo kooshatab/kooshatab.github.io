@@ -456,8 +456,8 @@ ninja.data = [{
           description: "Frito Lay Attrition Data Analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/FritoLay/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
+            },},{id: "projects-time-series",
+          title: 'Time Series',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Time_Series/";
