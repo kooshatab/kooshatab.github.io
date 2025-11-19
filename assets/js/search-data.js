@@ -496,6 +496,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-time-series",
+          title: 'Time Series',
+          description: "Demonstration of the Time Series",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Time_Series/";
             },},{
         id: 'social-cv',
         title: 'CV',
