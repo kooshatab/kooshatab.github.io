@@ -1,11 +1,11 @@
---- 
-layout: page 
-title: Time Series 
-description: Demonstration of the Time Series 
-img: assets/img/Time_Series.png 
-importance: 2 
+---
+layout: page
+title: project 1
+description: with background image
+img: assets/img/Time_Series.png
+importance: 1
 category: work
-related_publications: true 
+related_publications: true
 ---
 
 # Time Series
