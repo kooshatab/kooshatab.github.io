@@ -1,5 +1,5 @@
 --- layout: page title: Time Series description: Demonstration of the
-Time Series img: assets/img/project1.png importance: 1 category: work
+Time Series img: assets/img/project1.png importance: 2 category: work
 related\_publications: true ---
 
 # Project1\_FinalDraft
