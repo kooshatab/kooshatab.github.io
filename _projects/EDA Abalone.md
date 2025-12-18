@@ -1,7 +1,7 @@
 ---
 layout: page
-title: EDA & MLR to Predict Age
-description: ABALONE DATASET ANALYSIS
+title: ABALONE DATASET ANALYSIS
+description: EDA & MLR to Predict Age
 img: assets/img/Abalone.jpg
 importance: 1
 category: work
